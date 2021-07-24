@@ -1,2 +1,5 @@
 # PhpStorm
 .idea
+
+# phpinfo
+/public/phpinfo*.php
