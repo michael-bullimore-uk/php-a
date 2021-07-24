@@ -3,3 +3,6 @@
 
 # phpinfo
 /public/phpinfo*.php
+
+# Composer
+/vendor

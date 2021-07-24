@@ -8,6 +8,6 @@ services:
             - ./nginx/php-a.conf:/etc/nginx/conf.d/php-a.conf
             - ../:/var/www/php-a/
     php:
-        image: php:8.0-fpm
+        build: ./php/
         volumes:
             - ../:/var/www/php-a/
